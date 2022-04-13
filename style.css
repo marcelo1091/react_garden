@@ -1,0 +1,29 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.canvas {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.map {
+    padding: 19px 23px;
+    background-color: crimson;
+    width: 4000px;
+    height: 4000px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.player {
+    width: 28px;
+    height: 28px;
+    background-color: #54ff30;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
