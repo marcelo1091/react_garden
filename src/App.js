@@ -1,7 +1,8 @@
-import "./App.css";
+import "./App.scss";
+import { Canvas } from "./game/canvas/Canvas";
 
 function App() {
-  return <div className="App"></div>;
+  return <div className="App"><Canvas /></div>;
 }
 
 export default App;
